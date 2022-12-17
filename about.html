@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="with=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Благотворительный фонд Каусар</title>
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+ 	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+	<section class="sub-header">
+		<p class="PhotoBy">Photo by <a href="https://unsplash.com/@elou?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emily Campbell</a> on <a href="https://unsplash.com/s/visual/c6f999ec-d60e-415f-9a2b-d257f8ebdbcb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  </p>
+  
+		<nav>
+			<a href="index.html"><img class="kausar" src="images/logo.svg" alt=""></a>
+			<div class="nav-links" id="navLinks">
+				<img class="icon" onclick="hideMenu()" src="images/close-icon.png">
+
+				<ul>
+						<li> <a href="">О НАС</a></li>
+						<li> <a href="">ПОМОЩЬ</a></li>
+						<li> <a href="">ОТЧЕТЫ</a></li>
+						<li> <a href="">О ФОНДЕ</a></li>
+						<li> <a href="">КОНТАКТЫ</a></li>
+				</ul>	
+			</div>
+			<img class="icon" onclick="showMenu()" src="images/menu-icon.png">
+		</nav>
+		<h1>About US</h1>
+	</section>
+<!-- ------------about us content------ -->
+
+
+<section class="about-us">
+	<div class="row">
+		<div class "about-col">
+						<h1>About Us worrld largest university</h1>
+		<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"<br> для текстов на латинице с начала XVI века.</p>
+		<a href="" class="hero-btn black-btn">EXPLORE NOW</a>
+		</div>
+		<div class="about-col">
+				<img src="images/about.jpg" alt="">
+		</div>
+
+	</div>
+
+</section>
+
+
+<section class="footer">
+		<h4>About Us</h4>
+		<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"<br> для текстов на латинице с начала XVI века.</p>
+		<div>
+			<img src="images/whatsapp.png" class="icons">
+			<img src="images/phone.png" class="icons">
+		</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -----Java script for Toggle Menu--- --> 
+<script>
+	var navLink = document.getElementById("navLinks")
+	function showMenu(){
+		navLink.style.right = "0"
+	}
+	function hideMenu(){
+		navLink.style.right = "-200px"
+	}
+</script>
+
+
+</body>
+</html>
