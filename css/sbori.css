@@ -1,0 +1,354 @@
+html {
+scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#progressbar1 p {
+	display: flex;
+	position: absolute;
+	left: 30%;
+	bottom: 25%;
+}
+#progressbar1 {
+  background-color: rgba(200, 200, 200, 0.7);
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 275x;
+  position: relative;
+  display: flex;
+  margin-top: 15%;
+
+
+}
+
+#progressbar1>div {
+  background: rgba(50, 200, 50, 1);
+  width: 93%;
+  /* Adjust with JavaScript */
+  height: 20px;
+  border-radius: 30px;
+}
+
+
+#progressbar2 p {
+	display: flex;
+	position: absolute;
+	left: 30%;
+	bottom: 25%;
+}
+#progressbar2 {
+  background-color: rgba(200, 200, 200, 0.7);
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 275x;
+  position: relative;
+  display: flex;
+  margin-top: 15%;
+
+
+}
+
+#progressbar2>div {
+  background: rgba(50, 200, 50, 1);
+  width: 25%;
+  /* Adjust with JavaScript */
+  height: 20px;
+  border-radius: 30px;
+}
+
+#progressbar3 p {
+	display: flex;
+	position: absolute;
+	left: 30%;
+	bottom: 25%;
+}
+#progressbar3 {
+  background-color: rgba(200, 200, 200, 0.7);
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 275x;
+  position: relative;
+  display: flex;
+  margin-top: 15%;
+
+
+}
+
+#progressbar3>div {
+  background: rgba(50, 200, 50, 1);
+  width: 72%;
+  /* Adjust with JavaScript */
+  height: 20px;
+  border-radius: 30px;
+}
+
+/*#progressbar4 p {
+	display: flex;
+	position: absolute;
+	left: 30%;
+	bottom: 25%;
+}
+#progressbar4 {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 13px;
+
+  padding: 3px;
+  width: 275x;
+  position: relative;
+  display: flex;
+  margin-top: 15%;
+
+
+}
+
+#progressbar4>div {
+  background: rgba(50, 200, 50, 1);
+  width: 10%;
+  
+  height: 20px;
+  border-radius: 30px;
+}
+
+#progressbar5 p {
+	display: flex;
+	position: absolute;
+	left: 30%;
+	bottom: 25%;
+}
+#progressbar5 {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 13px;
+  
+  padding: 3px;
+  width: 275x;
+  position: relative;
+  display: flex;
+  margin-top: 15%;
+
+
+}
+
+#progressbar5>div {
+  background: rgba(50, 200, 50, 1);
+  width: 14%;
+ 
+  height: 20px;
+  border-radius: 30px;
+}
+
+#progressbar6 p {
+	display: flex;
+	position: absolute;
+	left: 30%;
+	bottom: 25%;
+}
+#progressbar6 {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 13px;
+  
+  padding: 3px;
+  width: 275x;
+  position: relative;
+  display: flex;
+  margin-top: 15%;
+
+
+}
+
+#progressbar6>div {
+  background: rgba(50, 200, 50, 1);
+  width: 80%;
+  
+  height: 20px;
+  border-radius: 30px;
+}*/
+
+.payment{
+	min-height: 130vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4, 9, 30, 0.5),rgba(4, 9, 30, 0.5)), url(../img/water.jpg);
+	background-position: bottom;	
+	background-size: cover;
+	position: absolute;
+
+}
+
+.cell{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cell-coд h2{
+	margin:  0;
+	color: #000;
+	top: 0%;
+	background: rgba(245, 245, 245, 0.8);
+	padding: 10px;
+	border-radius: 20px;
+	
+}
+.cell-col{
+	width: 200px;
+	background: rgba(255, 255, 255, 0.8);
+	flex-basis: 31%;
+	border: px solid #000;
+	border-radius: 20px;
+	margin-bottom: -1%;
+	padding: 10px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	font-size: 12px;
+	/*backdrop-filter: blur(5px);*/
+	text-align: center;
+
+}
+.cell-col:hover{
+	transform: scale(1.2);
+	background-color: rgba(255, 255, 255, 1);
+	
+}
+.cell-col2 {
+	width: 400px;
+	left: 41%;
+	flex-basis: 31%;
+	position: relative;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	box-sizing: border-box;
+	transition: 0.5s;
+  border-radius: 20px;
+
+}
+
+.qr {
+	width: 90%;
+	border-radius: 20px;
+}
+.sberpay-img {
+	width: 30%;
+	position: relative;
+	left: 27%;
+	padding-bottom: 20px;
+}
+.cell-col h2{
+	letter-spacing: 20%;
+	margin:  5;
+	color: #000;
+	top: 10%;
+	left: 50%;
+	background: rgba(245, 245, 245, 0.8);
+	padding: 10px;
+	border-radius: 20px;
+}
+.cell-col p {
+	padding-top: 10px;
+	text-align: left;
+	word-spacing: 5px;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 12%;
+
+}
+.avatar1 {
+	width: 200px;
+	right: 42%;
+	top: 2%;
+	border-radius: 10px;
+	right: 30%;
+	float: left; 
+	margin: 5px;
+	
+}
+
+
+.mobilnij-banking {
+	padding-top: 150px;
+}
+.cell-col p{
+	font-weight: 400;
+	color: #000;
+
+}
+
+
+.cell-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+	.cell{
+		flex-direction: column;
+	}
+}
+@media(max-width: 700px){
+	.cell-coll{
+		flex-direction: column;
+		padding: 40px 12px;
+	}
+}
+.line1 {
+	
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	padding-top: 250px;
+	font-weight: 600;
+}
+.line2 {
+	
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	padding-top: 10px;
+	font-weight: 600;
+}
+.qr {
+	width: 90%;
+	border-radius: 20px;
+}
+.sberpay-img {
+	width: 30%;
+}
+.big-kausar-pay{
+	width: 20%;
+	top: 2%;
+	left: 40%;
+	position: absolute;
+}
+.back-pay-btn {
+	text-decoration: none;
+	border-radius: 20px;
+	color: #fff;
+	padding: 10px 20px;
+	margin: 30px;
+	font-size: 15px;
+	background: rgba(50, 200, 50, 0.7);
+	position: absolute;
+	cursor: pointer;
+	word-spacing: 5px;
+	margin: 0;
+	left: 47%;
+	top: 90%;
+}
+@media(max-width: 700px){
+	.back-pay-btn{
+		position: relative;
+		left: 33%;
+		top: 99%;
+	}
+.back-pay-btn:hover{
+	border-radius: 20px;
+	background: #fff;
+	color: #000;
+	transition: 0.8s ;
+	transform: scale(1.1);
+}
+
