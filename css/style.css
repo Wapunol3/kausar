@@ -18,7 +18,7 @@ scroll-behavior: smooth;
 .header {
 	min-height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(4, 9, 30, 0.5),rgba(4, 9, 30, 0.5)), url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614582885_7-p-belii-fon-sovremennii-7.jpg);
+	background-image: linear-gradient(rgba(4, 9, 30, 0.5),rgba(4, 9, 30, 0.5)), url(../img/water1.png);
 	background-position: center;	
 	background-size: cover;
 	border-radius: 0px 0px 35px 35px;
